@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+body{
+    width: 1000px;
+    margin:auto;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#izquierda{
+	float:left;
+	overflow: auto;
+}
+
+#izquierda img{
+	padding-left: 25px;
+}
+#izquierda h2 {
+   margin-left: 25px;
+}
+
+#izquierda h6{
+	text-decoration: underline;
+	color:RGB(150, 10, 10);
+	font-size: 14px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#derecha{
+	float:right;
+	overflow: auto;
+}
+
+#derecha h2{
+	color: black;
+	float: top;
+}
+
+#derecha p{
+	overflow: auto;
+}
+#abajo{
+   margin-top: 25px;
+	float:bottom;
+	overflow: auto;
+}
+
+#reparto {
+   list-style-type: none;
+   margin-left: 10px;
+}
+
+#abajo h5{
+   margin-left: 10px;
+}
+
+#lista_favoritos {
+    list-style-position: inside;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+img {
+   height: 200px;
+   width: 150px;
+}

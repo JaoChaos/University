@@ -1,0 +1,215 @@
+/*
+    Juan Anaya Ortiz.
+    Pablo Rey Pedrosa.
+    Archivo CSS para index.html de práctica final.
+*/
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+body{
+    width: 1000px;
+    margin:auto;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header{
+    margin: 1px;
+    overflow: auto;
+    background-color: RGB(10,150,10);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+header #title{
+    float: left;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+header #phrase{
+	float: bottom-left;
+	padding-top: 80px;
+    padding-left: 20px;
+    color: white;
+}
+nav{
+    margin: 0px;
+    background-color: rgb(150, 150, 0);
+    height: 25px;
+    padding-top: 0px;
+    font-family: "Calibri";
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding-right: 50px;
+    padding-left: 15px;
+}
+
+nav ul li {
+    float: left;
+    margin: 0px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    padding-right: 10px;
+
+}
+
+#apartados-izq{
+    margin: 0px;
+    float: bottom-left;
+
+}
+
+#apartados-der{
+    margin: 0px;
+    float: right;
+    font-size: 10px;
+    padding-top: 3px;
+}
+
+nav ul li a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: RGB(150,10,10);
+}
+
+nav ul li .lista_izq{
+  border-bottom-style: solid;
+  border-bottom-color: RGB(150,10,10);
+}
+
+nav:after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.cuerpo{
+    overflow: auto;
+    font-family:"Calibri";
+    margin-left: 20px;
+    margin-right: 30px;
+
+}
+
+.principal-izq{
+    width: 50%;
+    float: left;
+    font-size: 20px;
+
+}
+
+.principal-der{
+	width: 50%;
+	float: right;
+
+}
+
+.principal-der img{
+	width: 80%;
+	padding-left: 25px;
+}
+
+.lista img{
+	width: 200px;
+	height: 300px;
+   float:left;
+   display: inline-block;
+}
+
+#aniadidas{
+	float:bottom;
+	padding-top: 250px;
+	list-style-type: none;
+
+}
+
+footer {
+    background-color: RGB(10,150,10);
+    margin: 1px;
+    overflow: auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: relative;
+}
+
+footer h4{
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+footer nav{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#izquierda{
+	float:left;
+	overflow: auto;
+}
+
+#izquierda img{
+	padding-left: 25px;
+}
+
+#izquierda h6{
+	text-decoration: underline;
+	color:RGB(150, 10, 10);
+	font-size: 14px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#derecha{
+	float:right;
+	overflow: auto;
+}
+
+#derecha h2{
+	color: black;
+	float: top;
+}
+
+#derecha p{
+	overflow: auto;
+}
+#abajo{
+	float:bottom;
+	overflow: auto;
+}
+
+#reparto {
+   list-style-type: none;
+   margin-left: 40px;
+}
+
+#abajo h5{
+   margin-left: 5px;
+}
+
+#lista_favoritos {
+    list-style-position: inside;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
